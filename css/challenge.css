@@ -1,0 +1,47 @@
+body,html{
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+@font-face {
+  font-family: 'rise';
+  src: url('../font/RiseInsidE-Regular.otf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+header{
+  background-image: url("../img/header.jpg");
+  border-bottom: 2px solid;
+  height: 15%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+h1{
+  text-align: center;
+  margin: 0;
+  font-family: "rise";
+  color: rgb(34, 33, 26);
+}
+form{
+  text-align: center;
+  padding-top: 3%;
+}
+section{
+  background-image: url("../img/fond.jpg");
+  background-size: cover;
+  height: 85%;
+}
+#infos{
+  color:white;
+  text-shadow:  0px 0px 15px black;
+  font-size: 30px;
+  text-align: center;
+  padding-top: 16%;
+}
+#inscrit{
+  display: inline-block;
+  padding-top: 1%;
+  padding-left: 5px;
+}
